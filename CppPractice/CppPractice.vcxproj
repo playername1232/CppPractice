@@ -232,7 +232,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lowsrc\MemoryPool\MemoryPool.h" />
+    <ClInclude Include="lowsrc\MemoryPool\MemoryPool.hpp" />
     <ClInclude Include="Testing\MainTestManger.h" />
     <ClInclude Include="Testing\MemoryPool\MemoryPoolTest.h" />
   </ItemGroup>

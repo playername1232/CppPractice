@@ -1,5 +1,5 @@
 ﻿#include "MemoryPoolTest.h"
-#include "../../lowsrc/MemoryPool/MemoryPool.h"
+#include "../../lowsrc/MemoryPool/MemoryPool.hpp"
 
 #include <iostream>
 
