@@ -47,6 +47,38 @@ public:
     MemoryPool(const MemoryPool& other) = delete;
     MemoryPool(MemoryPool&& other) noexcept = delete;
 
+    MemoryPool& operator=(const MemoryPool& other) = delete;
+    MemoryPool& operator=(MemoryPool&& other) noexcept = delete;
+
+    /**
+     * @return Allocated size
+     */
+    int GetSize()
+    {
+        return size_;
+    }
+    
+    // Releases resources - Whole memory block will no longer be managed by MemoryPool 
+    T* Release()
+    {
+        T* tmp = mem_pool_;
+
+        Reset();
+
+        return tmp;
+    }
+
+    // Frees all allocated resources
+    void Reset()
+    {
+        free(mem_pool_);
+        free(mem_alloc_);
+        
+        mem_pool_  = nullptr;
+        mem_alloc_ = nullptr;
+        size_ = 0;
+    }
+
     T* AllocateMemory() noexcept
     {
         for (size_t i = 0; i < size_; i++)
