@@ -4,4 +4,5 @@ class MainTestManger
 {
 public:
     static int testMemory();
+    static int testBitset();
 };

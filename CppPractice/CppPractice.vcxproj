@@ -155,6 +155,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Testing\bitset test\BitsetTest.cpp" />
     <ClCompile Include="Testing\MainTestManger.cpp" />
     <ClCompile Include="Testing\MemoryPool\MemoryPoolTest.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
@@ -233,7 +234,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lowsrc\MemoryPool\MemoryPool.hpp" />
+    <ClInclude Include="lowsrc\PBitset\PBitset.hpp" />
+    <ClInclude Include="Testing\bitset test\BitsetTest.h" />
     <ClInclude Include="lowsrc\PSmart_Pointers\PSmartPtrsHelper\PSmartPtrHelper.hpp" />
+    <ClInclude Include="lowsrc\PSmart_Pointers\PSmartPtrsHelper\PSmartPtrHelper.hpp" />
+    <ClInclude Include="lowsrc\PBitset\PBitset.hpp" />
+    <ClInclude Include="Testing\bitset test\BitsetTest.h" />
     <ClInclude Include="Testing\MainTestManger.h" />
     <ClInclude Include="Testing\MemoryPool\MemoryPoolTest.h" />
   </ItemGroup>
