@@ -4,6 +4,5 @@
 
 int main(int argc, char* argv[])
 {
-    std::cout << "\n\ntestMemory() result: " << MainTestManger::testMemory();
     return 0;
 }
