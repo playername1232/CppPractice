@@ -234,12 +234,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lowsrc\MemoryPool\MemoryPool.hpp" />
-<<<<<<< HEAD
     <ClInclude Include="lowsrc\PBitset\PBitset.hpp" />
     <ClInclude Include="Testing\bitset test\BitsetTest.h" />
-=======
     <ClInclude Include="lowsrc\PSmart_Pointers\PSmartPtrsHelper\PSmartPtrHelper.hpp" />
->>>>>>> refs/heads/master
     <ClInclude Include="lowsrc\PSmart_Pointers\PSmartPtrsHelper\PSmartPtrHelper.hpp" />
     <ClInclude Include="lowsrc\PBitset\PBitset.hpp" />
     <ClInclude Include="Testing\bitset test\BitsetTest.h" />
